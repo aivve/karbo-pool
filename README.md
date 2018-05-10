@@ -114,6 +114,9 @@ sudo apt-get install git build-essential redis-server libboost1.55-all-dev nodej
 
 #### 1) Downloading & Installing
 
+On Ubuntu 16.04 you need to downgrade nodejs:
+`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
+`nvm install 0.10.25`
 
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
