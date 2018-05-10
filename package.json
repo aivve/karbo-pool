@@ -15,7 +15,7 @@
         "dateformat": "*",
         "base58-native": "*",
         "multi-hashing": "git://github.com/niobio-cash/node-multi-hashing.git",
-        "cryptonote-util": "git://github.com/aivve/cryptonote-util-krb.git"
+        "cryptonote-util": "git://github.com/aivve/node-cryptonote-util.git"
     },
     "engines": {
         "node": ">=0.10"
